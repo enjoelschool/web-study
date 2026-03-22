@@ -32,6 +32,8 @@ GitHub Pages：
 
 https://ユーザー名.github.io/web-study/
 
+https://username.github.io/web-study/basics/html-basic/index.html
+
 ---
 
 ## 目的
