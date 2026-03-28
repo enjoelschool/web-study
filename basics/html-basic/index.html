@@ -8,6 +8,9 @@
             h1 {
                 color: red;
             }
+            .red {
+                color: red;
+            }
         </style>
     </head>
 
@@ -148,5 +151,29 @@
          <!-- https://www.tagindex.com/html_tag/basic/character.html -->
          <!-- smallタグは文字を小さくする目的で使わない -->
          <p><small>&copy; 2026 enjoel.</small></p>
+
+         <!-- span要素 -->
+         <!-- 
+         文書の意味つけを持たない要素
+         文書の特定部分をCSSで装飾したいときに利用する
+         span要素にはclass属性をつけられる
+         class要素はその要素が所属するグループの名前
+         -->
+         <p>私は<span class="red">HTML</span>と<span class="red">CSS</span>を学びます。</p>
+         <hr>
+
+         <!-- divとspan要素の違い -->
+         <!--
+         div => ブロック要素、改行される
+         span => インライン要素
+
+         ブロック要素は要素の幅と高さを指定できる
+         インライン要素は要素の幅と高さを指定できない
+         
+         divの中spanは書ける
+         spanの中にdivは書けない
+         -->
+         <p>これは<div>div</div>です</p>
+         <p>これは<span>span</span>です</p>
     </body>
 </html>
